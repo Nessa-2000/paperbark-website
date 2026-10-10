@@ -6,7 +6,7 @@
 window.PB = {
 
   // Where buyers, clubs and associations can email you
-  email: "hello@yourdomain.com.au",
+  email: "hellowebsitepa@gmail.com",
 
   // OPTIONAL: a sign-up form link for "Notify me" buttons (e.g. a MailerLite,
   // Mailchimp or Google Form link). Leave as "" and the buttons will open an
@@ -19,8 +19,8 @@ window.PB = {
   products: {
     "secretarys-book": {
       price:  "A$29",
-      payhip: "https://payhip.com/b/YOUR-CODE",
-      etsy:   "https://www.etsy.com/listing/YOUR-LISTING"
+      payhip: "https://payhip.com/b/cvfBX",
+      etsy:   "https://www.etsy.com/au/listing/4591686835/australian-football-club-secretarys-book?ref=listings_manager_grid"
     }
   }
 };

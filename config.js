@@ -5,7 +5,8 @@
    ===================================================================== */
 window.PB = {
 
-  // Where buyers, clubs and associations can email you
+  // Your email address (shown on the Contact page for people who prefer email).
+  // Messages from the Contact form arrive via Netlify Forms (see README).
   email: "hellowebsitepa@gmail.com",
 
   // OPTIONAL: a sign-up form link for "Notify me" buttons (e.g. a MailerLite,
@@ -40,14 +41,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   document.querySelectorAll("[data-mail]").forEach(function (el) {
     var subj = el.dataset.mail || "Hello from your website";
-    el.href = "mailto:" + PB.email + "?subject=" + encodeURIComponent(subj);
+    el.href = "contact.html?topic=" + encodeURIComponent(subj);
     if (el.dataset.showEmail !== undefined) el.textContent = PB.email;
   });
   document.querySelectorAll("[data-notify]").forEach(function (el) {
     var name = el.dataset.notify;
     el.href = PB.signupUrl ? PB.signupUrl
-      : "mailto:" + PB.email + "?subject=" + encodeURIComponent("Notify me: " + name) +
-        "&body=" + encodeURIComponent("Hi! Please let me know when the " + name + " is ready.");
+      : "contact.html?topic=" + encodeURIComponent("Notify me: " + name);
   });
   var y = document.getElementById("yr"); if (y) y.textContent = new Date().getFullYear();
   // mobile menu

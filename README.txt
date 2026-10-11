@@ -19,3 +19,11 @@ ADDING A NEW PRODUCT LATER
 - Add it to "products" in assets/config.js, give it its own page
   (copy secretarys-book.html as a starting point), and switch its card on the
   home page from "Coming soon" to "Available now".
+
+CONTACT FORM (Netlify Forms)
+- contact.html holds the contact form. Every "Contact" / "Get in touch" link on
+  the site opens it, with the topic filled in. message-sent.html is the thank-you page.
+- Messages appear in Netlify: Site > Forms > "contact".
+- To get them by email: Netlify > Site configuration > Notifications >
+  Emails and webhooks > Form submission notifications > Add notification >
+  Email notification > choose the "contact" form > enter your email.

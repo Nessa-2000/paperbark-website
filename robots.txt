@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /thanks.html
+Disallow: /message-sent.html
+
+Sitemap: https://paperbarkbusinessco.com.au/sitemap.xml

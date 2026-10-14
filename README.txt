@@ -8,7 +8,7 @@ PAPERBARK BUSINESS CO WEBSITE - HOW TO GO LIVE
      - price      -> if it changes
    Every button and price on every page updates from this one file.
 
-2. Open policies.html, read the refunds / licence / privacy wording, adjust it
+2. Open policies.html, read the refunds / terms of use / privacy wording, adjust it
    to suit you, and delete the yellow "delete this box" note.
 
 3. Upload EVERYTHING in this folder (keep the folder structure):

@@ -21,10 +21,14 @@ window.PB = {
     "secretarys-book": {
       price:  "A$29",
       payhip: "https://payhip.com/b/cvfBX",
-      etsy:   "https://www.etsy.com/au/listing/4591686835/australian-football-club-secretarys-book?ref=listings_manager_grid"
+      etsy:   "https://www.etsy.com/listing/4591686835"
+    },
+    "small-business-office-book": {
+      price:  "A$XX",
+      payhip: "https://payhip.com/b/https://payhip.com/b/LjnJV",
+      etsy:   ""
     }
-  }
-};
+  };
 
 /* ---------- no need to edit below this line ---------- */
 document.addEventListener("DOMContentLoaded", function () {

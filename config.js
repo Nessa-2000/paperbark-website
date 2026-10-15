@@ -28,6 +28,7 @@ window.PB = {
       payhip: "https://payhip.com/b/LjnJV",
       etsy:   ""
     }
+  }
   };
 
 /* ---------- no need to edit below this line ---------- */

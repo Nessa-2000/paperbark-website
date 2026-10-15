@@ -25,7 +25,7 @@ window.PB = {
     },
     "small-business-office-book": {
       price:  "A$39",
-      payhip: "https://payhip.com/b/https://payhip.com/b/LjnJV",
+      payhip: "https://payhip.com/b/LjnJV",
       etsy:   ""
     }
   };
